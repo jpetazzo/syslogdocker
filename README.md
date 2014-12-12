@@ -18,3 +18,6 @@
 
 5. See in the log message show up in the "tail" container.
 
+## Background
+
+For more information on this approach, see [Multiple Docker containers logging to a single syslog](http://jpetazzo.github.io/2014/08/24/syslog-docker/).
