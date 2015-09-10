@@ -21,8 +21,15 @@
     
     `docker exec -t syslog tail -f /var/log/syslog`
 
-5. See in the log message show up in the "tail" container.
+6. See in the log message show up in the "tail" container.
+
 
 ## Background
 
 For more information on this approach, see [Multiple Docker containers logging to a single syslog](http://jpetazzo.github.io/2014/08/24/syslog-docker/).
+
+
+## Other methods
+
+See [#4](https://github.com/jpetazzo/syslogdocker/issues/4#issue-95955147) for insights about
+achieving similar results without requiring an host bind moount (thanks @helderco!)
